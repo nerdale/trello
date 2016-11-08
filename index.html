@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name = "viewport" content="width=device-width">
+	<meta charset="UTF-8">
+	<title>Trello</title>
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,700" rel="stylesheet">
+	<link rel="stylesheet" href="fonts/style.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<!-- MENU NAV -->
+	<header>
+		<nav class="navbar-default">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12 col-lg-12 text-center hidden-xs hidden-sm">
+						<span class="pull-left board"><span class="icon-trello"></span>Boards</span>
+						<img src="img/header-logo.png" class="img-logo" alt="trello">
+						<img src="img/trello-user.png" class="pull-right user" alt="user-trello">
+					</div>
+					<div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+						<img src="img/responsive.png" alt="responsive-trello">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+			<div class="col-md-12 col-lg-12 hidden-xs hidden-sm">
+					<div class="linea-nav text-center"><h5>¡Ahora Trello está disponible en Español! <a href="#">Pruebelo</a> - <a href="#">No, gracias</a></h5></div>
+				</div>
+			</div>			
+			
+		</nav>
+	</header>
+	<section class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-3">
+				<form>
+					<span class="primer-input" onclick="anadirLista()">Añadir Lista...</span>
+				</form>
+				<div id="contenedor"></div>
+			</div>
+		</div>
+	</section>
+
+	<!-- JavaScript Files -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- <script src="js/calculate.js"></script> -->
+	<script type="text/javascript" src="js/script.js"></script>	
+</body>
+</html>
