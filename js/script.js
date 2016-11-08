@@ -15,7 +15,7 @@ function anadirLista(){
 	var boton = document.createElement('input');
 	boton.setAttribute('type', 'button');
 	boton.setAttribute('value', 'Guardar');
-	boton.classList.add('btn', 'btn-primary', 'btn-dos');
+	boton.classList.add('btn', 'btn-primary');
     //envío input y botton a div contenedor
     formulario.appendChild(inp);
     formulario.appendChild(boton);
