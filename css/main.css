@@ -66,3 +66,32 @@ body{
 	margin-right: 10px;
 }
 
+.vinculo{
+	color: #FFF;
+	cursor: pointer;
+	text-align: center;
+}
+.vinculo:hover{
+	cursor: pointer;
+	color: #FFF;
+}
+.input-lista{
+	margin-left: 15px;
+}
+
+#contenedor p{
+	color: #FFF;
+	font-size: 18px;
+}
+
+.areaDeTxt{
+	color: #424242;
+	font-size: 15px;
+}
+
+.btnTarjeta{
+	margin-left: 60px;
+}
+.anadir-lista-borrar{
+	display: none;
+}
