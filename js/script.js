@@ -22,10 +22,10 @@ function anadirLista(){
     	var textoRescatado = document.getElementsByClassName('input-lista')[0].value;
     	document.getElementsByClassName('form-group', 'input-lista')[0].value = "";
 		//validacion que textarea no este vacio
-		if(textoRescatado == null || textoRescatado.length == 0){
+		/*if(textoRescatado == null || textoRescatado.length == 0){
 			alert('¡Error ! Debe ingresar un nombre de lista');
 			return false;
-		}
+		}*/
 		//contenedor donde irán las listas
 		var cont = document.getElementById('contenedor');
 		// creo elemento div 
